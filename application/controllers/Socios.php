@@ -18,7 +18,7 @@ class Socios extends CI_Controller
 	}
 
 	public function index()
-	{
+	{cd
 		$breadcrumb         = array(
 			"Inicio" => "/qrtour/public",
 		);
@@ -27,6 +27,7 @@ class Socios extends CI_Controller
 		$this->load->view('Componentes/Headersocio', $data);
 		$this->load->view('Visitas/usuario/InicioUsuario');
 		$this->load->view('Componentes/Footer');
+		echo"ola";
 	}
 	public function nosotros()
 	{
