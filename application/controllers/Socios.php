@@ -27,6 +27,7 @@ class Socios extends CI_Controller
 		$this->load->view('Componentes/Headersocio', $data);
 		$this->load->view('Visitas/usuario/InicioUsuario');
 		$this->load->view('Componentes/Footer');
+		echo"brisa del cielo";
 	}
 	public function nosotros()
 	{
